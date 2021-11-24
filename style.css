@@ -1,0 +1,64 @@
+body
+{
+  color: rgb(173, 255, 184);
+  background: #00530b;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #Snap
+{
+  border: 5px dotted rgb(190, 255, 201);
+  width: 350px;
+  height: 300px; 
+}
+#ResultEmotionName ,#ResultEmotion2 
+{
+  color: rgb(200, 255, 208);
+}
+.EmotionName
+{
+  font-size: 40px;
+}
+.Emoji
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 30px;
+  border-radius: 20px;
+  letter-spacing: 10px;
+}
+
+label{
+  font-size: 14px;
+  background-color: #b9ffc3;
+  color: #003f03;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    border: 3px lightgreen dashed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+    background-color: lightgreen;
+    color: rgb(0, 68, 0);
+    cursor: pointer;
+}
+
+h1{
+    background-color: lightgreen;
+    color: darkgreen;
+    letter-spacing: 3px;
+    border-radius: 150px;
+}
+
+#Goto{
+    border-color: darkgreen;
+}

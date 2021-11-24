@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Hand Gestures</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1>HAND GESTURES<br>
+                <span>&#128077;</span>
+                <span>&#128078;</span>
+                <span>&#9995;</span>
+                <span>&#9994;</span>
+                <span>&#128076;</span>
+                <span>&#129304;</span>
+            </h1>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Webcam - </label>
+        <div id="camera"></div>
+        <br><br>
+        <button type="button" onclick="take_snapshot()">Take Picture</button>
+        <br>
+        <br>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Prediction 1 - </label>
+        <p class="EmotionName" id="ResultEmotionName"></p>
+        <p class="Emoji" id="Emoji1"></p>
+        <br>
+        <br>
+        <label>Prediction 2 - </label>
+        <p class="EmotionName" id="ResultEmotion2"></p>
+        <p class="Emoji" id="Emoji2"></p>
+      </div>
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+        <div id="Snap"></div>
+        <br><br>
+        <button type="button" style="width: 200px;">Recognise Hand Gesture</button>
+        <br>
+      </div>
+        </center>
+        <br>
+        <br>
+        <button type="button" id="Goto" onclick="Goto()" style="text-align: center; width: 300px; margin-left: 1200px;">Go To Reference Page To See Hand Gestures</button>
+    </body>
+    </html>
